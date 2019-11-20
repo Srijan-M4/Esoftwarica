@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#95A5A6"
+    android:background="#B8D1D5"
     android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="76dp"
-        android:background="#1B4D45"
+        android:background="#94B150"
         android:gravity="center"
         android:text="Student Details"
-        android:textColor="#FFFFFF"
+        android:textColor="#107C88"
         android:textSize="30dp"
         android:textStyle="bold" />
 

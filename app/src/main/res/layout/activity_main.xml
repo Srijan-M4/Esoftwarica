@@ -6,22 +6,23 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="76dp"
-        android:background="#1B4D45"
-        android:gravity="center"
-        android:text="Login"
-        android:textColor="#FFFFFF"
-        android:textSize="30dp"
-        android:textStyle="bold" />
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="76dp"-->
+<!--        android:background="#58965A"-->
+<!--        android:gravity="center"-->
+<!--        android:text="SIGN IN"-->
+<!--        android:textColor="#25A9B9"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
 
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Username"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Username"
         android:inputType="text"
         android:textSize="25dp" />
 
@@ -30,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Password"
+        android:hint="Enter Password"
         android:inputType="textPassword"
         android:textSize="25dp" />
 
@@ -39,7 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="#58965A"
         android:layout_margin="20dp"
-        android:text="Login" />
+        android:text="Sign In" />
 
 </LinearLayout>
